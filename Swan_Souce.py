@@ -119,7 +119,7 @@ def task(tokenx, proxy, link_ref, tokens_file, semaphore):
             EC.element_to_be_clickable(
                 (
                     By.XPATH,
-                    "/html/body/div[1]/section/main/div[2]/div[1]/div/div[2]",
+                    "//*[text()[contains(.,'CONNECT X')]]",
                 )
             )
         ).click()
